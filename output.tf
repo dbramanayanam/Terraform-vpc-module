@@ -3,6 +3,6 @@ output "azs" {
 }
 
 output "vpc_id" {
-  value       = aws_vpc.vpc
+  value = aws_vpc.vpc
     
 }
