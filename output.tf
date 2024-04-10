@@ -7,6 +7,6 @@ output "vpc" {
 
 }
 
-output "database_subnets" {
-  value       = aws_subnet.database[count.index].id
-}
+# output "database_subnets" {
+#   value       = aws_subnet.database[count.index].id
+# }
