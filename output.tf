@@ -2,14 +2,14 @@ output "azs" {
   value = local.value
 }
 
-output "vpc_id" {
-  value = aws_vpc.vpc.id
-}
+# output "vpc_id" {
+#   value = aws_vpc.vpc.id
+# }
 
-output "internet_gw" {
-  value       = aws_internet_gateway.gw.id
+# output "internet_gw" {
+#   value = aws_internet_gateway.gw.id
 
-}
+# }
 
 
 # output "public_subnet_ids" {
