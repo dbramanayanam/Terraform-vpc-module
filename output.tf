@@ -1,3 +1,3 @@
-output "azs" {
-  value = local.value
-}
+# output "azs" {
+#   value = local.value
+# }
