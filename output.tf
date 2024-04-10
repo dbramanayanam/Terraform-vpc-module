@@ -1,4 +1,4 @@
-output "azs" {
+output "az_s" {
   value = local.value
 }
 
