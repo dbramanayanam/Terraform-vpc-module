@@ -12,6 +12,6 @@ output "az_s" {
 # }
 
 
-# output "database_subnets" {
-#   value       = aws_subnet.database[count.index].id
-# }
+output "database_subnets" {
+  value       = aws_subnet.database[*].id
+}
