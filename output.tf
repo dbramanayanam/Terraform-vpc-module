@@ -14,15 +14,15 @@ output "internet_gw" {
 
 
 output "public_subnet_ids" {
-  value = aws_subnet.public[count.index].id
+  value = aws_subnet.public[*].id
 }
 
 
 output "private_subnet_ids" {
-  value = aws_subnet.private[count.index].id
+  value = aws_subnet.private[*].id
 }
 
 
 output "database_subnet_ids" {
-  value = aws_subnet.database[count.index].id
+  value = aws_subnet.database[*].id
 }
