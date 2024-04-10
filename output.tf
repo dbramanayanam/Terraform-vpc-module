@@ -7,9 +7,9 @@ output "az_s" {
 
 # }
 
-output "aws_route_table"  {
-  value = aws_route_table.public_rt.id 
-}
+# output "aws_route_table"  {
+#   value = aws_route_table.public_rt.id 
+# }
 
 
 # output "database_subnets" {
